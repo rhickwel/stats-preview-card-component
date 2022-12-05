@@ -29,7 +29,6 @@ body{
     font-size: 16px;
 }
 
-/* mobile container */
 .container{
     display: flex;
     flex-direction: column-reverse;
@@ -96,6 +95,7 @@ span{
     color: var(--slightly-transparent-white-2);
 }
 
+/* for desktop screens*/
 @media (min-width: 720px){
     .container{
         display: grid;
